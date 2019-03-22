@@ -33,4 +33,4 @@ getData()
         setTimeout (() => spinner.stop(), 3000);
         
         })
-    .catch(err => console.log('ERROR'.red, colors.yellow(err.message)))
+    .catch(err => console.log('ERROR'.red, colors.yellow(err.message)));
