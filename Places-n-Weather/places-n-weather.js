@@ -13,7 +13,7 @@ const getLatLng = async direction => {
     const response = await instance.get();
 
     if(response.data.Results.length === 0){
-        throw new Error ('Location not found'.red);    
+        throw new Error ('Location not found'.yellow);    
     }
 
     const {name, lat, lon } = response.data.Results[0];
