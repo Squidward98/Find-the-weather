@@ -28,7 +28,7 @@ const getData = async () =>{
 getData()
     .then (() => {
         frame.view = spinner; 
-        spinner.text = 'Congrats, now you know the weather... :)'.green;
+        spinner.text = 'Congrats, now you know the weather... :) \n'.green;
         spinner.start(); 
         setTimeout (() => spinner.stop(), 3000);
         
